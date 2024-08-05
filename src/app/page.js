@@ -3,7 +3,7 @@ import Image from "next/image";
 import RegisterPage from "./auth/register/page";
 import SplashScreen from "./components/splash.js";
 import { useEffect, useState } from "react";
-import Home from "./components/home/home";
+import Home from "./components/Home/home";
 
 export default function App() {
     const [isSplashVisible, setIsSplashVisible] = useState(true);

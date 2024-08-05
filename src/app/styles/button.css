@@ -1,0 +1,88 @@
+/* From Uiverse.io by Spacious74 */ 
+.button1 {
+    width: 100%;
+    font-size: 1em;
+    padding: 0.4em 0.7em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #000000b4;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    position: relative;
+    padding: 2px;
+    background: linear-gradient(90deg, #FFD300, #FF6800);
+    border-radius: 0.5em;
+    transition: all 0.4s ease;
+  }
+  
+  .container1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 0.7em;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+  }
+  
+  .container1:hover::before {
+    background: linear-gradient(90deg, #FFD300, #FF6800);
+    filter: blur(1.2em);
+  }
+  .container1:active::before {
+    filter: blur(0.2em);
+  }
+
+  /* From Uiverse.io by Spacious74 */ 
+.button2 {
+    width: 100%;
+    font-size: 1em;
+    padding: 0.4em 0.7em;
+    border-radius: 0.5em;
+    border: none;
+    /* background-color: #000; */
+    background: linear-gradient(90deg, #FFD300, #FF6800);
+    color: #fff;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 3px #000000b4; */
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    position: relative;
+    padding: 2px;
+    background: linear-gradient(90deg, #FFD300, #FF6800);
+    border-radius: 0.5em;
+    transition: all 0.4s ease;
+  }
+  
+  .container2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 0.7em;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+  }
+  
+  .container2:hover::before {
+    background: linear-gradient(90deg, #b5b5b5, #b2b2b2);
+    filter: blur(1.2em);
+  }
+  .container2:active::before {
+    filter: blur(0.2em);
+  }
+  
+  

@@ -2,7 +2,7 @@
 // components/SplashScreen.js
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Button } from '../small/button';
+import { ReverseButton } from '../small/button';
 
 const Home = () => {
     return (
@@ -15,10 +15,10 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 mt-10 w-full sm:w-auto">
                     <Link href="/auth/register">
-                        <Button className="w-full sm:w-auto">Register</Button>
+                        <ReverseButton className="w-full sm:w-auto">Register</ReverseButton>
                     </Link>
                     <Link href="/auth/login">
-                        <Button className="w-full sm:w-auto">Login</Button>
+                        <ReverseButton className="w-full sm:w-auto">Login</ReverseButton>
                     </Link>
                 </div>
             </div>
