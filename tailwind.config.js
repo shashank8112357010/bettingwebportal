@@ -17,6 +17,7 @@ module.exports = {
         // secondaryBlack: "#182736",
         // darkBlack: "#12202E",
         // lightBlack: "#1F3143",
+        primaryYellow:"#f9c809",
         buttonBlack: "#2F2F2F",
         primaryGray: "#A4A4A4",
         // primaryGrey: "#8D8D8D",

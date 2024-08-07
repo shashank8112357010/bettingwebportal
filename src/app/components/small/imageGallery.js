@@ -15,7 +15,7 @@ const ImageGallery = () => {
       <div className=" scroll-container overflow-x-auto scroll-smooth w-[400px]">
         <div className="flex space-x-4">
           {images.map((src, index) => (
-            <div key={index} className="min-w-[120px]">
+            <div key={index} className="min-w-[122px]">
               <img src={src} alt={`Image ${index + 1}`} className="w-full h-[150px] rounded-lg" />
             </div>
           ))}

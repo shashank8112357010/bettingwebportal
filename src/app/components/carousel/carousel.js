@@ -77,10 +77,10 @@ const Carousel = () => {
             style={{ display: currentSlide === index ? "block" : "none" }}
           >
             <div
-              className=" w-[400px] h-[200px] text-white flex flex-col items-center justify-center"
+              className=" w-[420px] h-[200px]  text-white flex flex-col items-center justify-center"
             // style={{ backgroundImage: slide.backgroundImage }}
             >
-              <img src={slide.src} alt={`Slide ${index + 1}`} className=" w-[80%] h-[80%] rounded-lg" />
+              <img src={slide.src} alt={`Slide ${index + 1}`} className=" w-[90%] h-[85%] rounded-lg" />
               {/* <div className="md:w-1/2">{slide.content}</div> */}
             </div>
             <br />

@@ -20,7 +20,7 @@ export const Button = ({ children, onClick }) => {
   );
 }
 
-export const ReverseButton = ({ children, onClick }) => {
+export const ReverseButton = ({ children, onClick}) => {
   return (
     <div className="container1">
       <button className="button1">{children}</button>

@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import RegisterPage from "./auth/register/page";
-import SplashScreen from "./components/splash.js";
+import SplashScreen from "./components/small/splash.js";
 import { useEffect, useState } from "react";
 import Home from "./components/Home/home";
 

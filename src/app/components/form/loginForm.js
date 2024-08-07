@@ -21,7 +21,7 @@ const LoginForm = () => {
         .required('Password is required')
     }),
     onSubmit: values => {
-      router.push('/home')
+      router.push('/pages/home')
       console.log(values);
     },
   });

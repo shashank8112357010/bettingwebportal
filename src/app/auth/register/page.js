@@ -4,8 +4,9 @@ import RegisterForm  from '@/app/components/form/registerForm';
 
 const Register = () => {
   return (
-    <div className="flex justify-center bg-white">
-      <div className="min-h-screen flex flex-col items-center max-w-[390px] w-full bg-black">
+    <div className="flex justify-center">
+      <div className="container min-h-screen flex flex-col items-center max-w-[420px] w-full bg-black rounded-2xl"
+      style={{ boxShadow: "0 4px 6px rgba(255, 255, 255, 0.5), 0 2px 4px rgba(255, 255, 255, 0.5)" }}>
         <div className="flex justify-center mb-10 mt-4">
           <img src="/images/splash.png" alt="Sitara Logo" className="w-24" />
         </div>

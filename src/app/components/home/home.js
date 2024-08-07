@@ -6,8 +6,9 @@ import { ReverseButton } from '../small/button';
 
 const Home = () => {
     return (
-        <div className='flex justify-center bg-white'>
-            <div className=" inset-0 flex flex-col gap-4 items-center justify-center bg-black max-w-[390px] z-50 p-4 h-screen">
+        <div className='flex justify-center'>
+            <div className=" inset-0 flex flex-col gap-4 items-center rounded-2xl justify-center bg-black max-w-[420px] z-50 p-4 min-h-screen"
+            style={{ boxShadow: "0 4px 6px rgba(255, 255, 255, 0.5), 0 2px 4px rgba(255, 255, 255, 0.5)" }}>
                 <img src="/images/splash.png" alt="Splash Screen" className="w-32 sm:w-48" />
                 <div className="text-center text-white">
                     <h1 className="text-xl sm:text-2xl font-bold">Welcome to Sitara Betting App</h1>
